@@ -2,49 +2,49 @@
 
 🌐 **English** · [Português](README.pt-BR.md)
 
-Gateway inteligente para APIs de Large Language Models (LLMs) com roteamento inteligente, segurança multicamadas, suporte a MCP (Model Context Protocol) e controle de acesso baseado em papéis (RBAC).
+Intelligent gateway for Large Language Model (LLM) APIs with smart routing, multilayer security, MCP (Model Context Protocol) support, and role-based access control (RBAC).
 
 ![Dashboard](assets/dashboard.png)
 
-## Sobre o OmniRouterAI
+## About OmniRouterAI
 
-Plataforma unificada que atua como proxy e gateway para múltiplos provedores de IA. Centraliza o gerenciamento de chaves de API, controle de custos, segurança de conteúdo, e expõe uma interface única compatível com a API OpenAI, além de implementar o Model Context Protocol (MCP).
+Unified platform that acts as a proxy and gateway for multiple AI providers. Centralizes API key management, cost control, content security, and exposes a single interface compatible with the OpenAI API, in addition to implementing the Model Context Protocol (MCP).
 
-## Funcionalidades
+## Features
 
-| Funcionalidade | Descrição |
+| Feature | Description |
 |---|---|
-| **Proxy Multi-Provedor** | Roteia requisições para 11 provedores de IA |
-| **Smart Routing** | Roteamento inteligente baseado em regras e classificação de intenção |
-| **API Key Management** | Geração, revogação e escopagem de chaves de API |
-| **Guard Rails** | Filtros de conteúdo para PII, credenciais, dados financeiros e de saúde |
-| **Controle de Acesso (RBAC)** | 5 papéis de sistema + papéis customizados com 59 permissões |
-| **MCP Gateway** | Descoberta e execução de ferramentas via Model Context Protocol |
-| **OpenAPI Converter** | Importa specs OpenAPI/Swagger como servidores MCP |
-| **Geolocalização e IP Rules** | Controle de acesso por país e lista de permissão/negação por CIDR |
-| **Rate Limiting** | Limitação de taxa por chave de API, projeto ou global |
-| **Analytics e Insights** | Dashboards de consumo por provedor, modelo, projeto, grupo e usuário |
-| **Secret Vault** | Armazenamento criptografado de segredos com resolução de variáveis de ambiente |
-| **Auditoria** | Rastreamento completo de todas as alterações no sistema |
-| **Autenticação Dual** | Login local (JWT) + OAuth Microsoft |
+| **Multi-Provider Proxy** | Routes requests to 11 AI providers |
+| **Smart Routing** | Intelligent routing based on rules and intent classification |
+| **API Key Management** | Generation, revocation, and scoping of API keys |
+| **Guard Rails** | Content filters for PII, credentials, financial, and health data |
+| **Access Control (RBAC)** | 5 system roles + custom roles with 59 permissions |
+| **MCP Gateway** | Discovery and execution of tools via Model Context Protocol |
+| **OpenAPI Converter** | Imports OpenAPI/Swagger specs as MCP servers |
+| **Geolocation and IP Rules** | Access control by country and allow/deny list by CIDR |
+| **Rate Limiting** | Rate limiting by API key, project, or global |
+| **Analytics and Insights** | Consumption dashboards by provider, model, project, group, and user |
+| **Secret Vault** | Encrypted secret storage with environment variable resolution |
+| **Auditing** | Complete tracking of all system changes |
+| **Dual Authentication** | Local login (JWT) + Microsoft OAuth |
 
-## Comece Aqui
+## Get Started
 
-[📘 **Português (README.pt-BR.md)**](README.pt-BR.md) — Documentação completa em português
+[📘 **Português (README.pt-BR.md)**](README.pt-BR.md) — Complete documentation in Portuguese
 
 [📙 **English (docs/en/README.md)**](docs/en/README.md) — Full English documentation
 
-## Provedores Suportados
+## Supported Providers
 
 OpenAI · Anthropic · Google Gemini · Azure OpenAI · Groq · Mistral AI · Fireworks AI · Together AI · DeepSeek · Perplexity AI · Ollama · Smart Router
 
 ## Stack
 
-| Camada | Tecnologia |
+| Layer | Technology |
 |---|---|
-| Backend | ASP.NET Core 10 (Controllers MVC) |
+| Backend | ASP.NET Core 10 (MVC Controllers) |
 | Frontend | React 19 + Vite 8 + shadcn/ui + TanStack Query |
-| Banco | PostgreSQL / SQLite (dev) |
-| Cache | In-Memory (substituível por Redis) |
+| Database | PostgreSQL / SQLite (dev) |
+| Cache | In-Memory (replaceable by Redis) |
 | Auth | JWT + Microsoft Account (OAuth 2.0) |
 | MCP | Model Context Protocol SDK |
