@@ -1,6 +1,8 @@
 # OmniRouterAI
 
-🌐 **English** · [Português](README.pt-BR.md)
+🌐 [English](README.md) · **Português**
+
+> 🇧🇷 Esta é a documentação em português. Para a versão em inglês, acesse [docs/en/](docs/en/README.md).
 
 Gateway inteligente para APIs de Large Language Models (LLMs) com roteamento inteligente, segurança multicamadas, suporte a MCP (Model Context Protocol) e controle de acesso baseado em papéis (RBAC).
 
@@ -28,11 +30,34 @@ Plataforma unificada que atua como proxy e gateway para múltiplos provedores de
 | **Auditoria** | Rastreamento completo de todas as alterações no sistema |
 | **Autenticação Dual** | Login local (JWT) + OAuth Microsoft |
 
-## Comece Aqui
+## Documentação em Português
 
-[📘 **Português (README.pt-BR.md)**](README.pt-BR.md) — Documentação completa em português
+### Funcionalidades (detalhadas)
 
-[📙 **English (docs/en/README.md)**](docs/en/README.md) — Full English documentation
+| Documento | Descrição |
+|---|---|
+| [Proxy Multi-Provedor](docs/features/proxy-multi-provedor.md) | Roteamento para 11 provedores de IA |
+| [Smart Routing](docs/features/smart-routing.md) | Roteamento inteligente por intenção |
+| [API Keys](docs/features/api-keys.md) | Gerenciamento de chaves de API |
+| [Guard Rails](docs/features/guard-rails.md) | Filtros de conteúdo sensível |
+| [Controle de Acesso](docs/features/controle-acesso.md) | RBAC com 59 permissões |
+| [MCP Gateway](docs/features/mcp-gateway.md) | Model Context Protocol |
+| [OpenAPI Converter](docs/features/openapi-converter.md) | OpenAPI → MCP |
+| [MCP Builder](docs/features/mcp-builder.md) | Builder de servidores MCP |
+| [Segurança](docs/features/seguranca.md) | IP, Geo, Rate Limit, Secret Vault |
+| [Analytics](docs/features/analytics.md) | Dashboards e monitoramento |
+| [Secret Vault](docs/features/secret-vault.md) | Armazenamento de segredos |
+| [Auditoria](docs/features/auditoria.md) | Logs de auditoria |
+| [Autenticação](docs/features/autenticacao.md) | Login local e OAuth Microsoft |
+
+### Referências
+
+| Documento | Conteúdo |
+|---|---|
+| [Telas do Sistema](docs/screens.md) | Todas as páginas com capturas de tela |
+| [API Endpoints](docs/api-endpoints.md) | Referência completa de 150+ endpoints |
+| [Permissões e Papéis](docs/permissions-and-roles.md) | Sistema completo de RBAC |
+| [Fluxos](docs/flows.md) | Fluxos funcionais com diagramas |
 
 ## Provedores Suportados
 
